@@ -9,7 +9,7 @@ products.forEach((product) => {
           <div class="product-image-container">
             <img
               class="product-image"
-              src="${product.image}"
+              src="./${product.image}"
             />
           </div>
 
